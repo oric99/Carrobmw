@@ -11,7 +11,14 @@
   background-image: url("https://cdn.discordapp.com/attachments/879598526143799296/880251986329604189/1.jpg");
   box-sizing: border-box;
 }
-#background #header {
+#background #colorFondo {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+#background #colorFondo #header {
   position: relative;
   height: 75px;
   width: 100%;
@@ -21,61 +28,59 @@
   transition: all 1s ease;
   padding-inline-end: 50px;
 }
-#background #header .logotipo {
+#background #colorFondo #header .logotipo {
   flex-flow: nowrap;
   flex-grow: 1;
   align-items: center;
   justify-content: flex-start;
   display: flex;
 }
-#background #header .logotipo .logo {
+#background #colorFondo #header .logotipo .logo {
   display: flex;
   transition: all 0.5s ease;
   padding-inline-start: 50px;
 }
-#background #header .btn {
-  transition: all 0.5s ease;
+#background #colorFondo #header .btn {
   display: flex;
   flex-flow: nowrap;
   justify-content: center;
   align-items: center;
   padding: 9px;
 }
-#background #header .btn .button {
+#background #colorFondo #header .btn .button {
   font-family: "Franklin Gothic heavy";
   font-size: 12px;
   color: rgba(255, 255, 255, 0.911);
   height: 35px;
-  width: 115px;
+  width: 148px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e40c3400;
   border-radius: 9px;
-  transition: all 0.5s ease;
 }
-#background #header .btn .button:hover {
+#background #colorFondo #header .btn .button:hover {
   color: #E40C34;
   background-color: white;
+  transition: all 0.5s ease;
 }
-#background #header .btn .buttonO {
+#background #colorFondo #header .btn .buttonO {
   font-family: "Franklin Gothic heavy";
   font-size: 12px;
   color: #e7e3e3;
-  height: 38px;
-  width: 150px;
+  height: 35px;
+  width: 148px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #E40C34;
   border-radius: 9px;
-  transition: all 0.5s ease;
 }
-#background #header .btn .buttonO:hover {
+#background #colorFondo #header .btn .buttonO:hover {
   color: #E40C34;
   background-color: white;
+  transition: all 0.5s ease;
 }
-#background #titulo {
+#background #colorFondo #titulo {
   position: fixed;
   display: flex;
   left: 50px;
@@ -85,7 +90,7 @@
   align-items: center;
   padding: 10px;
 }
-#background #titulo .cuadrotexto {
+#background #colorFondo #titulo .cuadrotexto {
   height: 250px;
   flex-flow: column;
   display: flex;
@@ -94,18 +99,17 @@
   justify-content: space-between;
   align-items: flex-start;
 }
-#background #titulo .cuadrotexto .titulo1 {
+#background #colorFondo #titulo .cuadrotexto .titulo1 {
   display: flex;
   font-size: 40px;
   z-index: 12px;
 }
-#background #titulo .cuadrotexto .info {
+#background #colorFondo #titulo .cuadrotexto .info {
   font-family: "Franklin Gothic medium";
   display: flex;
   font-size: 20px;
 }
-#background #titulo .cuadrotexto .btnorder2 {
-  transition: all 0.5s ease;
+#background #colorFondo #titulo .cuadrotexto .btnorder2 {
   font-family: "Franklin Gothic heavy";
   font-size: 15px;
   color: #e7e3e3;
@@ -117,11 +121,12 @@
   background-color: #E40C34;
   border-radius: 9px;
 }
-#background #titulo .cuadrotexto .btnorder2:hover {
+#background #colorFondo #titulo .cuadrotexto .btnorder2:hover {
   background-color: white;
   color: #E40C34;
+  transition: all 0.5s ease;
 }
-#background #footer {
+#background #colorFondo #footer {
   position: fixed;
   height: max-content;
   width: 530px;
@@ -132,7 +137,7 @@
   display: flex;
   transition: all 1s ease;
 }
-#background #footer .imagen {
+#background #colorFondo #footer .imagen {
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
@@ -141,10 +146,10 @@
   border-radius: 10px;
   background-color: #E40C34;
 }
-#background #footer .imagen img {
+#background #colorFondo #footer .imagen img {
   border-radius: 10px;
 }
-#background #footer .imagen:hover {
+#background #colorFondo #footer .imagen:hover {
   background-color: white;
 }
 

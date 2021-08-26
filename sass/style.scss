@@ -1,4 +1,4 @@
-
+//Own: Ciro José Mosquera Ortiz
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +12,13 @@
     background-size: cover;
     background-image: url("https://cdn.discordapp.com/attachments/879598526143799296/880251986329604189/1.jpg");
     box-sizing: border-box;
-    #header{
+    #colorFondo{
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.192);
+       #header{
         position: relative;
         height: 75px;
         width: 100%;
@@ -34,7 +40,6 @@
             }
         }
         .btn {
-            transition: all 0.5s ease;
             display: flex;
             flex-flow: nowrap;
             justify-content: center;
@@ -45,35 +50,34 @@
                 font-size: 12px;
                 color:rgba(255, 255, 255, 0.911);
                 height: 35px; 
-                width: 115px;
+                width: 148px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: #e40c3400; 
                 border-radius: 9px;
-                transition: all 0.5s ease;
             }
             .button:hover{   
                 color: #E40C34;
                 background-color: white;
+                transition: all 0.5s ease;
             }
             .buttonO{
                 font-family: 'Franklin Gothic heavy';
                 font-size: 12px;
                 color:rgb(231, 227, 227);
-                height: 38px; 
-                width: 150px;
+                height: 35px; 
+                width: 148px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 background-color: #E40C34; 
                 border-radius: 9px;
-                transition: all 0.5s ease;
                 
             }
             .buttonO:hover{
                 color: #E40C34;
                 background-color: white;
+                transition: all 0.5s ease;
             }
             
         }
@@ -106,7 +110,7 @@
                 font-size: 20px;
             }
             .btnorder2{
-                transition: all 0.5s ease;
+                
                 font-family: 'Franklin Gothic heavy';
                 font-size: 15px;
                 color:rgb(231, 227, 227);
@@ -122,6 +126,7 @@
             .btnorder2:hover{
                 background-color: white;
                 color: #E40C34;
+                transition: all 0.5s ease;
             }
 
         }
@@ -151,5 +156,7 @@
         .imagen:hover{
             background-color: white;
         }
+    } 
     }
+    
 }
