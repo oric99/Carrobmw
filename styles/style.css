@@ -15,12 +15,11 @@
   position: relative;
   height: 75px;
   width: 100%;
-  border-bottom: 1px solid rgba(179, 34, 34, 0);
   align-items: center;
   justify-content: flex-end;
   display: flex;
   transition: all 1s ease;
-  padding-inline-end: 40px;
+  padding-inline-end: 50px;
 }
 #background #header .logotipo {
   flex-flow: nowrap;
@@ -31,10 +30,11 @@
 }
 #background #header .logotipo .logo {
   display: flex;
-  transition: all 1s ease;
-  padding-inline-start: 40px;
+  transition: all 0.5s ease;
+  padding-inline-start: 50px;
 }
 #background #header .btn {
+  transition: all 0.5s ease;
   display: flex;
   flex-flow: nowrap;
   justify-content: center;
@@ -43,7 +43,7 @@
 }
 #background #header .btn .button {
   font-family: "Franklin Gothic heavy";
-  font-size: 15px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.911);
   height: 35px;
   width: 115px;
@@ -52,27 +52,74 @@
   align-items: center;
   background-color: #e40c3400;
   border-radius: 9px;
+  transition: all 0.5s ease;
+}
+#background #header .btn .button:hover {
+  color: #E40C34;
+  background-color: white;
 }
 #background #header .btn .buttonO {
   font-family: "Franklin Gothic heavy";
   font-size: 12px;
   color: #e7e3e3;
-  height: 32px;
-  width: 110px;
+  height: 38px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E40C34;
+  border-radius: 9px;
+  transition: all 0.5s ease;
+}
+#background #header .btn .buttonO:hover {
+  color: #E40C34;
+  background-color: white;
+}
+#background #titulo {
+  position: fixed;
+  display: flex;
+  left: 50px;
+  height: 100%;
+  width: 35%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+#background #titulo .cuadrotexto {
+  height: 250px;
+  flex-flow: column;
+  display: flex;
+  font-family: "Franklin Gothic heavy";
+  color: white;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#background #titulo .cuadrotexto .titulo1 {
+  display: flex;
+  font-size: 40px;
+  z-index: 12px;
+}
+#background #titulo .cuadrotexto .info {
+  font-family: "Franklin Gothic medium";
+  display: flex;
+  font-size: 20px;
+}
+#background #titulo .cuadrotexto .btnorder2 {
+  transition: all 0.5s ease;
+  font-family: "Franklin Gothic heavy";
+  font-size: 15px;
+  color: #e7e3e3;
+  height: 48px;
+  width: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #E40C34;
   border-radius: 9px;
 }
-#background #texto {
-  position: fixed;
-  display: flex;
-  left: 50px;
-  height: 200px;
-  width: max-content;
-  justify-content: flex-start;
-  align-items: center;
+#background #titulo .cuadrotexto .btnorder2:hover {
+  background-color: white;
+  color: #E40C34;
 }
 #background #footer {
   position: fixed;
@@ -86,6 +133,7 @@
   transition: all 1s ease;
 }
 #background #footer .imagen {
+  transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,6 +143,9 @@
 }
 #background #footer .imagen img {
   border-radius: 10px;
+}
+#background #footer .imagen:hover {
+  background-color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
