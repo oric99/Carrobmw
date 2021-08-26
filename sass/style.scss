@@ -1,39 +1,103 @@
-body{
-    background-image: url("https://cdn.discordapp.com/attachments/879598526143799296/880251986329604189/1.jpg");
+
+*{
     padding: 0;
     margin: 0;
-    background-size: cover;
-    background-position: fixed;
     box-sizing: border-box;
 }
 
-#header{
-    position: relative;
-    height: 75px;
-    width: 90vw;
-    border-bottom: 1px solid rgba(179, 34, 34, 0.925);
-    display: fixed;
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-    height: 75px;
-    transition: all 1s ease;
-    .btn {
+
+#background{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("https://cdn.discordapp.com/attachments/879598526143799296/880251986329604189/1.jpg");
+    box-sizing: border-box;
+    #header{
+        position: relative;
+        height: 75px;
+        width: 100%;
+        border-bottom: 1px solid rgba(179, 34, 34, 0);
+        align-items: center;
+        justify-content: flex-end;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: flex-end;
-        padding: 20px;
-        a{
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 16px;
-            color:rgb(255, 255, 255);
-            height: center; 
-            width: center;
-            background-color: rgba(206, 0, 0, 0.829); 
-            border-radius: 6px;
+        transition: all 1s ease;
+        padding-inline-end: 40px;
+        .logotipo{
+            flex-flow: nowrap;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: flex-start;
+            display: flex;
+            .logo{
+                display: flex;
+                transition: all 1s ease;
+                padding-inline-start: 40px;
+            }
+        }
+        .btn {
+            display: flex;
+            flex-flow: nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 9px;
+            .button{
+                font-family: 'Franklin Gothic heavy';
+                font-size: 15px;
+                color:rgba(255, 255, 255, 0.911);
+                height: 35px; 
+                width: 115px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e40c3400; 
+                border-radius: 9px;
+            }
+            .buttonO{
+                font-family: 'Franklin Gothic heavy';
+                font-size: 12px;
+                color:rgb(231, 227, 227);
+                height: 32px; 
+                width: 110px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #E40C34; 
+                border-radius: 9px;
+            }
+        }
+    }
+    #texto{
+        position: fixed;
+        display: flex;
+        left: 50px;
+        height: 200px;
+        width: max-content;
+        justify-content: flex-start;
+        align-items: center;
+        .cuadrotexto{
+
+        }
+    }
+    #footer{
+        position: fixed;
+        height: max-content;
+        width: 530px;
+        bottom: 30px;
+        right: 40px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        transition: all 1s ease;
+        .imagen{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1px;
+            border-radius: 10px;
+            background-color: #E40C34;
+            img{
+                border-radius: 10px;
+            }
         }
     }
 }
-
-
