@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/879598526143799296/880251986329604189/1.jpg");
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: fixed;
+  box-sizing: border-box;
+}
+
+#header {
+  position: relative;
+  height: 75px;
+  width: 90vw;
+  border-bottom: 1px solid rgba(179, 34, 34, 0.925);
+  display: fixed;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  height: 75px;
+  transition: all 1s ease;
+}
+#header .btn {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+#header .btn a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: white;
+  height: center;
+  width: center;
+  background-color: rgba(206, 0, 0, 0.829);
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
